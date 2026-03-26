@@ -1,4 +1,4 @@
-🔐 BTLO — ANAKUS Investigation  
+BTLO — ANAKUS Investigation  
 <img width="872" height="746" alt="Screenshot 2026-03-26 at 12 42 48" src="https://github.com/user-attachments/assets/03226464-3567-4ca7-b7a7-7513a55acf02" />
 
 Summary:
