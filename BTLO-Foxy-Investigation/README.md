@@ -1,4 +1,4 @@
-🔐 BTLO — FOXY Investigation
+BTLO — FOXY Investigation
 <img width="889" height="758" alt="Screenshot 2026-03-22 at 13 05 53" src="https://github.com/user-attachments/assets/d1fbcfb1-98c7-4335-a302-72042e8ba6f2" />
 
 ---
