@@ -16,6 +16,7 @@ Attack Chain:
 ➡️ Indicates phishing-based initial access
 
 
+
 2️⃣ User Execution
 
         Artefact: .lnk file (Recent Documents)
@@ -24,6 +25,7 @@ Attack Chain:
         
 ➡️ Confirms user interaction with malicious attachment
         
+
 
 3️⃣ Encrypted Communication
 
@@ -34,6 +36,7 @@ Attack Chain:
 ➡️ Indicates use of secure messaging for coordination
         
 
+
 4️⃣ Data Exchange
 
         Extracted email from chat:
@@ -41,6 +44,7 @@ Attack Chain:
 
 ➡️ Evidence of external communication / coordination
         
+
 
 5️⃣ Timeline Reconstruction
 
@@ -52,6 +56,7 @@ Attack Chain:
         01-02-2021 09:00 AM
         
 ➡️ Reveals planned attack date & time
+
         
 
 6️⃣ Hidden Intelligence (Encoded Data)
@@ -63,6 +68,7 @@ Attack Chain:
 ➡️ Indicates intentional obfuscation
         
 
+
 7️⃣ Decryption & Location Discovery
 
         Identified encoding via Tor browser history
@@ -71,7 +77,8 @@ Attack Chain:
         Decoded result:
         
         40 degrees 45 minutes 28.6776 seconds N, 73 degrees 59 minutes 7.944 seconds W
-        ➡️ Reveals exact blast location
+
+➡️ Reveals exact blast location
         
 
 Tools Used:
