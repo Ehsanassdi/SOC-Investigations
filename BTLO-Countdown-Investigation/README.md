@@ -8,34 +8,42 @@ Summary:
 
 
 Attack Chain:
+
 1️⃣ Initial Access (Email Attachment)
         Suspicious email identified in chat logs
         Attachment received and executed by user
         
-        ➡️ Indicates phishing-based initial access
+➡️ Indicates phishing-based initial access
 
 
 2️⃣ User Execution
+
         Artefact: .lnk file (Recent Documents)
         Opened file:
         ⏳📅.PNG
-        ➡️ Confirms user interaction with malicious attachment
+        
+➡️ Confirms user interaction with malicious attachment
         
 
 3️⃣ Encrypted Communication
+
         Application: Signal
         Extracted decryption key from config file
         Decrypted messaging database
-        ➡️ Indicates use of secure messaging for coordination
+        
+➡️ Indicates use of secure messaging for coordination
         
 
 4️⃣ Data Exchange
+
         Extracted email from chat:
         eekur@babybabes.com
-        ➡️ Evidence of external communication / coordination
+
+➡️ Evidence of external communication / coordination
         
 
 5️⃣ Timeline Reconstruction
+
         Artefact: thumbcache_256.db
         Tool: Thumbcache Viewer
     
@@ -43,17 +51,20 @@ Attack Chain:
         
         01-02-2021 09:00 AM
         
-        ➡️ Reveals planned attack date & time
+➡️ Reveals planned attack date & time
         
 
 6️⃣ Hidden Intelligence (Encoded Data)
+
         Source: Sticky Notes database (plum.sqlite)
         Table: Note
         Found encoded GPS coordinates
-        ➡️ Indicates intentional obfuscation
+
+➡️ Indicates intentional obfuscation
         
 
 7️⃣ Decryption & Location Discovery
+
         Identified encoding via Tor browser history
         Method: ROT13 (CyberChef)
         
@@ -64,6 +75,7 @@ Attack Chain:
         
 
 Tools Used:
+
         - Autopsy
         - DB Browser for SQLite
         - Thumbcache Viewer
@@ -71,6 +83,7 @@ Tools Used:
 
   
 Key Findings:
+
         - Phishing email used for initial access
         - Malicious attachment executed by user
         - Encrypted messaging (Signal) used by attacker
@@ -80,8 +93,10 @@ Key Findings:
         
         
 Verdict:
+
         True Positive — Confirmed malicious activity involving email delivery, user execution, encrypted communication, and planned physical attack.
 
         
 Key Insight:
+
         Correlation of artefacts (email + .lnk + thumbcache + SQLite + encoding) reveals full attack lifecycle including execution, timing, and location.
