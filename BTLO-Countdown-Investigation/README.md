@@ -11,6 +11,7 @@ Attack Chain:
 1️⃣ Initial Access (Email Attachment)
         Suspicious email identified in chat logs
         Attachment received and executed by user
+        
         ➡️ Indicates phishing-based initial access
 
 
