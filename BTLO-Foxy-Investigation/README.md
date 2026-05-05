@@ -85,6 +85,6 @@ Verdict:
 
 ---
 
-💡 Key Insight
+Key Insight
 
         Multiple independent indicators (C2, malware, exploitation, hosting abuse) confirm active malicious activity rather than benign traffic.
