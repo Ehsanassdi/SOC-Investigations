@@ -1,4 +1,4 @@
-BTLO — Hidden Comrade Investigation
+BTLO – Hidden Comrade Investigation (Phishing Attack & Full Compromise Analysis)
 <img width="923" height="763" alt="Screenshot 2026-05-05 at 01 17 56" src="https://github.com/user-attachments/assets/1d0f7f12-98bd-4318-8835-18afeaa268ab" />
 Summary:
 Investigation of a phishing-based compromise leading to malware execution, persistence via COM hijacking, credential theft, and data exfiltration.
