@@ -1,4 +1,4 @@
-BTLO — FOXY Investigation
+BTLO – FOXY Investigation (Malware Analysis & Threat Intelligence)
 <img width="889" height="758" alt="Screenshot 2026-03-22 at 13 05 53" src="https://github.com/user-attachments/assets/d1fbcfb1-98c7-4335-a302-72042e8ba6f2" />
 
 ---
@@ -8,7 +8,7 @@ Analysis of multiple indicators revealing malware activity, C2 beaconing (Cobalt
 
 ---
 
-⚔️ Key Findings:
+Key Findings:
 
 1️⃣ C2 Beaconing (Cobalt Strike):
         Indicator: `/dot.gif` → 45.63.126.199  
@@ -70,7 +70,7 @@ Analysis of multiple indicators revealing malware activity, C2 beaconing (Cobalt
 
 ---
 
-🛠️ Tools:
+Tools:
 
         grep • wc • less  
         MalwareBazaar  
@@ -79,7 +79,7 @@ Analysis of multiple indicators revealing malware activity, C2 beaconing (Cobalt
 
 ---
 
-🚨 Verdict:
+Verdict:
         
         True Positive — Confirmed malicious activity across multiple indicators
 
