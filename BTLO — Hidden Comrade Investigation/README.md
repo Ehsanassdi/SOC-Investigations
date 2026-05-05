@@ -116,3 +116,13 @@ Correlating:
         Phishing → PDF → bitsadmin → SCT → COM Hijack → Edge execution → Exfiltration → Credential theft
 
 clearly shows a complete attacker kill chain.
+
+
+MITRE ATT&CK Mapping
+
+        - T1566 — Phishing
+        - T1204 — User Execution
+        - T1105 — Ingress Tool Transfer
+        - T1546.015 — COM Hijacking
+        - T1041 — Exfiltration
+        - T1555 — Credential Access
