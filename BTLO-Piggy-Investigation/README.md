@@ -1,4 +1,4 @@
-BTLO – Piggy Investigation ( Network Traffic Analysis (PCAP Analysis )
+BTLO – Piggy Investigation (PCAP Network Traffic Analysis (Wireshark))
 <img width="834" height="746" alt="Screenshot 2026-03-11 at 16 37 50" src="https://github.com/user-attachments/assets/c3a29dc3-3abf-4353-908e-b7101dd41a04" />
 
 In this investigation I analysed several PCAP files from the Blue Team Labs Online Piggy challenge using Wireshark. During the analysis, suspicious network activity was identified between an internal host and external infrastructure.
