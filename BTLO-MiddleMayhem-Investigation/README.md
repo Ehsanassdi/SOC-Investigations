@@ -1,12 +1,12 @@
-BTLO — MiddleMayhem Investigation
+BTLO – MiddleMayhem Investigation (Web Exploitation & Post-Exploitation)
 <img width="920" height="758" alt="Screenshot 2026-03-17 at 16 46 37" src="https://github.com/user-attachments/assets/dde996e0-74ee-43a8-a406-9ae71fdea9b1" />
 
 
-🧠 Summary
+Summary
 Multi-stage web attack leading to full system compromise, including RCE (Remote Code Execution) and lateral movement.
 
 
-⚔️ Attack Chain
+Attack Chain
 
 1️⃣ Recon:
 
