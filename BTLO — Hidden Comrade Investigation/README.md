@@ -95,7 +95,7 @@ Key Findings
         Password reuse risk identified
 
         
-🚨 Verdict
+Verdict
 
         True Positive — Full compromise confirmed
         
@@ -109,7 +109,7 @@ Attack includes:
         Credential Theft
 
         
-💡 Key Insight
+Key Insight
 
 Correlating:
 
