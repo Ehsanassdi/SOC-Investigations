@@ -1,4 +1,4 @@
-BTLO — ANAKUS Investigation  
+BTLO – Anakus Investigation (Password Spraying & Post-Exploitation Analysis)
 <img width="872" height="746" alt="Screenshot 2026-03-26 at 12 42 48" src="https://github.com/user-attachments/assets/03226464-3567-4ca7-b7a7-7513a55acf02" />
 
 Summary:
@@ -6,7 +6,7 @@ Analysis of SIEM alerts revealing authentication attacks, PowerShell activity, p
 
 ---
 
-⚔️ Attack Chain  
+Attack Chain  
 
 1️⃣ Initial Access (Password Spraying):  
         Multiple login attempts from a single IP across many users  
@@ -46,7 +46,7 @@ Analysis of SIEM alerts revealing authentication attacks, PowerShell activity, p
 
 ---
 
-🧰 Tools Used:  
+Tools Used:  
 
         - SIEM (Timeline Explorer)  
         - grep / wc / less  
@@ -54,7 +54,7 @@ Analysis of SIEM alerts revealing authentication attacks, PowerShell activity, p
 
 ---
 
-📌 Key Findings : 
+Key Findings : 
 
         - Password Spraying attack detected  
         - Suspicious PowerShell execution  
@@ -64,12 +64,12 @@ Analysis of SIEM alerts revealing authentication attacks, PowerShell activity, p
 
 ---
 
-🚨 Verdict:  
+Verdict:  
 
         True Positive — Confirmed malicious activity involving authentication attacks, execution, persistence, and defense evasion  
 
 ---
 
-💡 Key Insight:  
+Key Insight:  
 
         Multiple correlated alerts (password spray + PowerShell + persistence + log clearing) confirm attacker progression across the kill chain.
