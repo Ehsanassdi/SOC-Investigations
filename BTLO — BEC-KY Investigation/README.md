@@ -5,6 +5,7 @@ Investigation of a phishing-driven Business Email Compromise (BEC) involving Mic
 
 
 
+
 Attack Chain
 
 1️⃣ Initial Access — Phishing (T1566)
@@ -25,7 +26,7 @@ Attack Chain
         - Financial approval emails
         - Withdrawal communications
   
-👉 Indicates Microsoft 365 account takeover for financial fraud.
+        👉 Indicates Microsoft 365 account takeover for financial fraud.
 
 
 3️⃣ Threat Actor Infrastructure
@@ -38,7 +39,7 @@ Evidence source:
 
         Import-Csv .\azure-export-audit-diff.csv
 
-👉 External IPs tied to mailbox access and inbox rule creation.
+        👉 External IPs tied to mailbox access and inbox rule creation.
 
 
 4️⃣ Malicious Inbox Rules (Persistence / Concealment)
@@ -54,7 +55,7 @@ Keyword monitored by attacker:
 
         Withdrawal
         
-👉 Used to automatically hide or process financial emails.
+        👉 Used to automatically hide or process financial emails.
 
 
 5️⃣ Financial Fraud Activity
@@ -69,7 +70,7 @@ SWIFT/BIC observed:
 
         FBNINGLA
         
-👉 Confirms international wire fraud attempt.
+        👉 Confirms international wire fraud attempt.
 
 
 Key Findings:
@@ -103,7 +104,7 @@ Correlating:
 
         Phishing Email → Credential Theft → Mailbox Access → Inbox Rule Creation → Email Concealment → Financial Fraud Attempt
 
-clearly demonstrates a full BEC attack workflow.
+        👉 clearly demonstrates a full BEC attack workflow.
 
 
 MITRE ATT&CK Mapping:
