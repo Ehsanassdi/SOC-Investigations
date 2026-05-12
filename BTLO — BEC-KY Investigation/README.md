@@ -4,6 +4,7 @@ Summary
 Investigation of a phishing-driven Business Email Compromise (BEC) involving Microsoft 365 mailbox compromise, malicious inbox rules, financial fraud, and international wire transfer activity.
 
 
+
 Attack Chain
 
 1️⃣ Initial Access — Phishing (T1566)
@@ -11,6 +12,7 @@ Attack Chain
         Phishing email received from:sabastian@flanaganspensions.co.uk
         Theme:Microsoft/Copilot invitation
         Goal:Credential harvesting via Microsoft-themed login lure
+        
         👉 Confirms phishing-based initial access.
 
 
