@@ -5,13 +5,13 @@ Investigation of a phishing-driven Business Email Compromise (BEC) involving Mic
 
 
 Attack Chain
+
 1️⃣ Initial Access — Phishing (T1566)
 
         Phishing email received from:sabastian@flanaganspensions.co.uk
         Theme:Microsoft/Copilot invitation
         Goal:Credential harvesting via Microsoft-themed login lure
-
-👉 Confirms phishing-based initial access.
+        👉 Confirms phishing-based initial access.
 
 
 2️⃣ Business Email Compromise (BEC)
