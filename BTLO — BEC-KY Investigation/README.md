@@ -1,6 +1,7 @@
 BTLO — Bec-ky Investigation (Business Email Compromise Analysis)
 <img width="811" height="708" alt="Screenshot 2026-05-12 at 01 13 05" src="https://github.com/user-attachments/assets/d3fce0da-ccdc-438d-9cd4-9291d3daaf8f" />
-Summary
+Summary:
+
 Investigation of a phishing-driven Business Email Compromise (BEC) involving Microsoft 365 mailbox compromise, malicious inbox rules, financial fraud, and international wire transfer activity.
 
 
